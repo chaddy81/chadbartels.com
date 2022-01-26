@@ -44,4 +44,13 @@ img {
   object-fit: cover;
   object-position: center;
 }
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0;
+    list-style-type: none;
+  }
+}
 </style>
