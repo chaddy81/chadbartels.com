@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="blog-container">
     <h1>Blog Posts</h1>
     <ul>
       <li v-for="article of articles" :key="article.slug">
@@ -33,6 +33,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.blog-container {
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
 img {
   height: 300px;
   width: 100%;
