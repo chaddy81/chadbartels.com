@@ -51,7 +51,7 @@ ul {
   li {
     padding: 0;
     list-style-type: none;
-    margin: 0 0 35px 0;
+    margin: 0 0 50px 0;
   }
 }
 </style>
