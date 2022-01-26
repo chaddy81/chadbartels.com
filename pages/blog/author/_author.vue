@@ -6,7 +6,7 @@
     <ul>
       <li v-for="article in articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-          <img :src="article.img" :alt="article.alt" />
+          <!-- <img :src="article.img" :alt="article.alt" /> -->
           <div>
             <h2>{{ article.title }}</h2>
             <p>{{ article.description }}</p>
