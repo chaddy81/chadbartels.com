@@ -1,12 +1,10 @@
 <template>
-  <NuxtLink :to="`/blog/author/${author.name}`">
-    <img :src="author.image" />
-    <div>
-      <h4>Author</h4>
-      <p>{{ author.name }}</p>
-      <p>{{ author.bio }}</p>
-    </div>
-  </NuxtLink>
+  <div>
+    <p>
+      Written by:
+      <NuxtLink :to="`/blog/author/${author.name}`">{{ author.name }}</NuxtLink>
+    </p>
+  </div>
 </template>
 
 <script>
