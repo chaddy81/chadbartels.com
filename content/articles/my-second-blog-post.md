@@ -1,7 +1,7 @@
 ---
 title: My second Blog Post
 description: Learning how to use @nuxt/content to create a blog
-img: second-blog-post.jpg
+img: toa-heftiba-FV3GConVSss-unsplash.jpeg
 alt: my second blog post
 author:
   name: Chad Bartels

@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: 'IndexPage',
   async asyncData({ $content, params }) {
     const articles = await $content('articles')
       .only(['title', 'description', 'img', 'slug', 'author'])
@@ -30,3 +31,12 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+</style>
