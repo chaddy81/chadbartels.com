@@ -1,0 +1,4 @@
+baseURL = 'https://chadbartels.com/'
+languageCode = 'en-us'
+title = 'Learning and Ideas'
+theme = 'PaperMod'
