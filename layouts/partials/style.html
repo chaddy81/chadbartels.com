@@ -1,0 +1,57 @@
+<!-- Custom site styles can be added here -->
+<style type="text/tailwindcss">
+  @theme {
+    --color-clifford: #da373d;
+  }
+
+  @layer components {
+    body {
+      @apply text-zinc-800;
+    }
+    p {
+      @apply mt-3 mb-5;
+    }
+    a:hover {
+      @apply text-sky-800;
+    }
+  }
+</style>
+
+<style type="text/css">
+  @font-face {
+    font-family: "FontAwesomeBrands";
+    src:
+      url("/webfonts/fa-brands-400.woff2") format("woff2"),
+      url("/webfonts/fa-brands-400.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "FontAwesomeRegular";
+    src:
+      url("/webfonts/fa-regular-400.woff2") format("woff2"),
+      url("/webfonts/fa-regular-400.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "FontAwesomeSolid";
+    src:
+      url("/webfonts/fa-solid-900.woff2") format("woff2"),
+      url("/webfonts/fa-solid-900.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "FontAwesomeV4Compatibility";
+    src:
+      url("/webfonts/fa-v4compatibility.woff2") format("woff2"),
+      url("/webfonts/fa-v4compatibility.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+</style>

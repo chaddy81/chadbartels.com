@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="mt-10">
+  {{ range where .Site.RegularPages "Section" "posts" }} {{ if not .Draft }}
+  <div class="border-b border-gray-200 py-2">
+    <h3 class="flex justify-between">
+      <a href="{{ .RelPermalink }}" class="font-bold text-lg">{{ .Title }}</a>
+      <span class="text-gray-400 text-sm mt-1">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </h3>
+    <p>{{ if .Summary }}{{ .Summary | plainify | truncate 100 }}{{ else }}No summary available.{{ end }}</p>
+  </div>
+
+  {{ end }} {{ end }}
+</section>
+{{ end }}
